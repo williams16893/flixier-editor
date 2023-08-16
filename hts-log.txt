@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 16 Aug 2023 15:15:18 at https://flixier.com/tools +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://flixier.com/tools -O1 "C:\My Web Sites\flixier" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:16:28	Error: 	Exit requested by shell or user
+15:16:28	Warning: 	File not added due to mirror cancel: https://global-uploads.webflow.com/6076d7df4e38902cc0e6dff3/629f7605d54801301d152880_622b54317ddcc438ab8bd948_translate-subtitle-online.png
+15:16:28	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://flixier.com/tools)
+15:16:31	Warning: 	Retry after error 502 (Bad Gateway) at link https://flixier.com/tools/picture-in-picture-video (from https://flixier.com/tools)
+15:16:32	Warning: 	Retry after error 502 (Bad Gateway) at link https://flixier.com/create (from https://flixier.com/tools)
+15:16:33	Warning: 	Retry after error 502 (Bad Gateway) at link https://flixier.com/create/instagram-ad-creator (from https://flixier.com/tools)
+15:16:41	Warning: 	File not added due to mirror cancel: https://flixier.com/tools/picture-in-picture-video
+15:16:41	Error: 	"mirror stopped by user" (-1) at link https://flixier.com/tools/picture-in-picture-video (from https://flixier.com/tools)
+15:16:41	Warning: 	File not added due to mirror cancel: https://flixier.com/create
+15:16:41	Error: 	"mirror stopped by user" (-1) at link https://flixier.com/create (from https://flixier.com/tools)
+15:16:41	Error: 	Unable to save file C:/My Web Sites/flixier/flixier.com/create: Permission denied
+15:16:41	Warning: 	File not added due to mirror cancel: https://flixier.com/create/instagram-ad-creator
+15:16:41	Error: 	"mirror stopped by user" (-1) at link https://flixier.com/create/instagram-ad-creator (from https://flixier.com/tools)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 23 seconds : 108 links scanned, 100 files written (24977218 bytes overall) [21957304 bytes received at 264545 bytes/sec], 3794920 bytes transferred using HTTP compression in 57 files, ratio 18%, 13.1 requests per connection
+(6 errors, 7 warnings, 0 messages)
